@@ -1,10 +1,9 @@
-﻿namespace MauiDevToolbox.App
+﻿namespace Monbsoft.MauiDevToolbox.App;
+
+public partial class AppShell : Shell
 {
-    public partial class AppShell : Shell
+    public AppShell()
     {
-        public AppShell()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

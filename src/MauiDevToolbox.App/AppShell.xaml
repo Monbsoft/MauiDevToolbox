@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="MauiDevToolbox.App.AppShell"
+    x:Class="Monbsoft.MauiDevToolbox.App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MauiDevToolbox.App"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:local="clr-namespace:Monbsoft.MauiDevToolbox.App"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Maui Dev Toolbox">
 
     <ShellContent
         Title="Home"
