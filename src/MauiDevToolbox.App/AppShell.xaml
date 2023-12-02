@@ -4,12 +4,21 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Monbsoft.MauiDevToolbox.App"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Maui Dev Toolbox">
+    xmlns:views="clr-namespace:Monbsoft.MauiDevToolbox.App.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Dev Toolbox">
 
-    <ShellContent
+    <FlyoutItem>
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    </FlyoutItem>
+    <FlyoutItem>
 
+        <ShellContent
+        Title="About"
+        ContentTemplate="{DataTemplate views:AboutPage}"
+        Route="AboutPage" />
+    </FlyoutItem>
 </Shell>
